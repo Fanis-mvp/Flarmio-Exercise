@@ -1,0 +1,50 @@
+html {
+  font-family: Tinos;
+}
+
+.flexform {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  width: 300px;
+  border: solid 1px lightgray;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+#form-title {
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #2373c7;
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  gap: 15px;
+}
+
+.grid label {
+  font-weight: 600;
+}
+
+.num {
+  height: 20px;
+  border-radius: 5px;
+  border: solid, 1px, lightgray;
+}
+
+.submit {
+  font-size: 15px;
+  justify-self: right;
+  border: solid, 3px, #2373c7;
+  color: #2373c7;
+  padding: 1px 10px;
+  font-weight: 700;
+  background-color: white;
+  border-radius: 8px;
+}
